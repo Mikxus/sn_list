@@ -25,8 +25,17 @@
 #ifndef _SINGLY_LINKED_LIST_H_
 #define _SINGLY_LINKED_LIST_H_
 
-#include "../../config.h"
-#include "../debug.h"
+#ifndef ERROR
+#define ERROR(...)
+#endif
+
+#ifndef INFO
+#define INFO(...)
+#endif
+
+#ifndef WARN
+#define WARN(...)
+#endif
 
 namespace sl_list
 {
