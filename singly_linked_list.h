@@ -25,6 +25,8 @@
 #ifndef _SINGLY_LINKED_LIST_H_
 #define _SINGLY_LINKED_LIST_H_
 
+#define _SINGLY_LINKED_LIST_VERSION_ "1.0.0"
+
 #ifndef ERROR
 #define ERROR(...)
 #endif
